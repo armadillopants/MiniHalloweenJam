@@ -5,6 +5,7 @@ public class Flashlight : MonoBehaviour {
 	private Light flashlight;
 	
 	public AnimationCurve lightCurve;
+	public AudioClip switchSound;
 	private bool switchOn = false;
 	
 	private float maxBatteryLife = 3600f;
@@ -44,6 +45,7 @@ public class Flashlight : MonoBehaviour {
 	void TurnOnOff(){
 		switchOn = !switchOn;
 		flashlight.enabled = !flashlight.enabled;
+		audio.PlayOneShot(switchSound);
 	}
 	
 	void TurnOff(){
