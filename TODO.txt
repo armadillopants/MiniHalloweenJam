@@ -1,0 +1,9 @@
+HORROR THEMED GAME, ITS HALLOWEEN OBVIOUSLY
+
+-CAMERA MOVEMENT
+-First Person
+
+-PLAYER MOVEMENT
+-Forward, Backward, Left, Right, Crouch?
+
+-Flashlight
