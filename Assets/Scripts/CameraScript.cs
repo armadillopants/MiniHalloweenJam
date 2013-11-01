@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 public class CameraScript : MonoBehaviour {
-	
+  private bool rotatePlayer = true;
 	private float minY = -80f;
 	private float maxY = 80f;
 	
@@ -16,8 +16,16 @@ public class CameraScript : MonoBehaviour {
 		
 		rotY += Input.GetAxis("Mouse Y") * sensitivity;
 		rotY = Mathf.Clamp(rotY, minY, maxY);
-		
-		transform.rotation = Quaternion.Euler(-rotY, rotX, 0);
+
+    if (rotatePlayer)
+    {
+      transform.root.rotation = Quaternion.Euler(0, rotX, 0);
+      transform.localRotation = Quaternion.Euler(-rotY, 0, 0);
+    }
+    else
+    {
+      transform.rotation = Quaternion.Euler(-rotY, rotX, 0);
+    }
 		
 	}
 }
