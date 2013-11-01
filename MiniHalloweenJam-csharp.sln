@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{9EAE1934-6E11-B35D-02EF-35FC202FCAA8}") = "MiniHalloweenJam", "Assembly-CSharp-firstpass-vs.csproj", "{DFA54D2A-1CBD-3A32-732B-F1AFD2CE8ADC}"
+EndProject
 Project("{9EAE1934-6E11-B35D-02EF-35FC202FCAA8}") = "MiniHalloweenJam", "Assembly-CSharp-vs.csproj", "{B13ECA8C-CB7D-DAD4-32E5-332E58ED3BAD}"
 EndProject
 Global
@@ -9,6 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFA54D2A-1CBD-3A32-732B-F1AFD2CE8ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA54D2A-1CBD-3A32-732B-F1AFD2CE8ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA54D2A-1CBD-3A32-732B-F1AFD2CE8ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA54D2A-1CBD-3A32-732B-F1AFD2CE8ADC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B13ECA8C-CB7D-DAD4-32E5-332E58ED3BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B13ECA8C-CB7D-DAD4-32E5-332E58ED3BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B13ECA8C-CB7D-DAD4-32E5-332E58ED3BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -17,7 +23,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-							GlobalSection(MonoDevelopProperties) = preSolution
+									GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
